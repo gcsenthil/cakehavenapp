@@ -13,7 +13,6 @@ export default function Order() {
   const [orderStatus, setOrderStatus] = useState("Pending"); // Default value for order status
   const [successMessage, setSuccessMessage] = useState(false); // To show success message
 
-  // Handle form submit
   const submitOrder = async (event: React.FormEvent) => {
     event.preventDefault(); // Prevent the form from submitting the traditional way
 
